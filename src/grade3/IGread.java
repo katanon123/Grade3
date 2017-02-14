@@ -11,7 +11,7 @@ package ac.th.npru.grade3;
  */
 interface IGread {
   
-    public String testscore();
+    public String Test_score();
   
     
 }
