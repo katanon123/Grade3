@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package grade3;
+package ac.th.npru.grade3;
 
 
 
@@ -14,28 +14,28 @@ package grade3;
  * @author katanon2
  */
 public class Gread implements IGread{
-           String grade;
-            int testscore ;
-        public String testscore() {      
-        if (testscore >= 80) {
-            grade = "A";
-        } else if (testscore >= 79) {
-            grade = "B+";
-             } else if (testscore >= 74) {
-            grade = "B";
-        } else if (testscore >= 70) {
-            grade = "C+";
-             } else if (testscore >= 64) {
-            grade = "C";
-        } else if (testscore >= 60) {
-            grade = "D+";
-        } else if (testscore >= 54) {
-            grade = "D";
+           String Grade;
+            int Test_score ;
+        public String Test_score() {      
+        if (Test_score >= 80) {
+            Grade = "A";
+        } else if (Test_score >= 79) {
+            Grade = "B+";
+             } else if (Test_score >= 74) {
+            Grade = "B";
+        } else if (Test_score >= 70) {
+            Grade = "C+";
+             } else if (Test_score >= 64) {
+            Grade = "C";
+        } else if (Test_score >= 60) {
+            Grade = "D+";
+        } else if (Tests_core >= 54) {
+            Grade = "D";
         } else {
-            grade = "I";
+            Grade = "I";
         }
 
-    return grade;    
+    return Grade;    
 }
 }
 
