@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ac.th.npru.grade3;
+package  th.ac.npru..se.grade3;
 
 
 
