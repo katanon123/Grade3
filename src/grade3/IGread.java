@@ -3,18 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package th.ac.npru..se.grade3;
 
-/**
- *
- * @author katanon2
- */
-interface IGread {
-  
-    public String Test_score();
-  
-    
+
+package th.ac.npru.se.grade;
+
+public interface Computable {
+	String computeGrade(float point);
 }
-
-    
 
